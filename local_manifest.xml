@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-        <remote name="Faiedmush"
-        fetch="https://github.com/Failedmush/" />
-
-        <project path="device/xiaomi/renoir" name="device_xiaomi_renoir" remote="Failedush" revision="Crdroid-14" />
+    <!-- Device tree for Mi 11 Lite 5G -->
+    <project path="device/xiaomi/renoir" name="crDroid/android_device_xiaomi_mi11lite5g" remote="github" revision="crDroid-<14>" />
+    
+    <!-- Vendor files for Mi 11 Lite 5G -->
+    <project path="vendor/xiaomi" name="crDroid/android_vendor_xiaomi" remote="github" revision="crDroid-<14>" />
+    
+    <!-- Kernel source if needed -->
+    <project path="kernel/xiaomi/renoir" name="crDroid/android_kernel_xiaomi_renoir" remote="github" revision="crDroid-<14>" />
+    
+    <!-- Additional crDroid repositories -->
+    <project path="packages/apps/Settings" name="crDroid/android_packages_apps_Settings" remote="github" revision="crDroid-<14>" />
+    <project path="packages/apps/Camera" name="crDroid/android_packages_apps_Camera" remote="github" revision="crDroid-<14>" />
 </manifest>
