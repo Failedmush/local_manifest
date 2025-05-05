@@ -26,4 +26,15 @@
     <!-- Hardware -->
    <project path="hardware/xiaomi" name="android_hardware_xiaomiv3" remote="Failedmush" />
 
+
+   # GMS build flags, false by default
+# ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
+WITH_GMS := true/false
+
+# These flags needs WITH_GMS set to true
+# Whether to ship pixel launcher and set it as default launcher, false by default
+TARGET_DEFAULT_PIXEL_LAUNCHER := true/false 
+
+# Whether to ship prebuilt Google Dialer and Messages, false by default
+TARGET_INCLUDE_GOOGLE_DIALER := true/false
 </manifest>
