@@ -1,7 +1,7 @@
 <manifest>
 
          <remote name="Failedmush" fetch="https://github.com/Failedmush" revision="lineage-22.1" />        
-        <remote name="LineageOS   "fetch="https://github.com/LineageOS"  revision="lineage-22.1" />
+        <remote name="LineageOS"   fetch="https://github.com/LineageOS"  revision="lineage-22.1" />
 
         <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-common" remote="LineageOS" revision="lineage-22.2" />
         <project path="android_kernel_xiaomi_sm8350" name="android_kernel_xiaomi_sm8350" remote="LineageOS" revision="lineage-22.2" />
