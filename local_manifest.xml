@@ -3,7 +3,7 @@
          <remote name="Failedmush" fetch="https://github.com/Failedmush" revision="lineage-22.2" />        
         
 
-        <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Failedmush" />
+        <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-commonv3" remote="Failedmush" />
         <project path="android_kernel_xiaomi_sm8350" name="android_kernel_xiaomi_sm8350v3" remote="Failedmush" />
         <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Failedmush" />
         <project path="android_hardware_xiaomi" name="android_hardware_xiaomiv3" remote="Failedmush" />
