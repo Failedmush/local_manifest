@@ -1,12 +1,13 @@
 <manifest>
 
-         <remote name="Failedmush" fetch="https://github.com/Failedmush" revision="lineage-22.2" />        
+         <remote name="LineageOS" fetch="https://github.com/LineageOS" revision="lineage-22.2" />        
+         <remote name="TheMuppets" fetch="https://github.com/TheMuppets" revision="lineage-22.2" />   
         
 
-        <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-commonv3" remote="Failedmush" />
-        <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Failedmush" />
-        <project path="android_hardware_xiaomi" name="android_hardware_xiaomiv3" remote="Failedmush" />
-        <project path="vendor/xiaomi/renoir" name="proprietary_vendor_xiaomi_renoir" remote="Failedmush" />
-        <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="Failedmush" />   
-         <project path="kernel_xiaomi_sm8350" name="android_kernel_xiaomi_sm8350v3" remote="Failedmush" />
+        <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-common" remote="LineageOS" />
+        <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="LineageOS" />
+        <project path="android_hardware_xiaomi" name="android_hardware_xiaomi" remote="LineageOS" />
+        <project path="vendor/xiaomi/renoir" name="proprietary_vendor_xiaomi_renoir" remote="TheMuppets" />
+        <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="TheMuppets" />   
+         <project path="kernel_xiaomi_sm8350" name="android_kernel_xiaomi_sm8350" remote="LineageOS" />
 </manifest>
