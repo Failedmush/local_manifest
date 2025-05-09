@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-        <remote name="Ardia"
-        fetch="https://github.com/ardia-kun/" />
 
-        <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Ardia" revision="Droidx" />
+         <remote name="RobertGarciaa" fetch="https://github.com/RobertGarciaa" revision="15" />           
+        <remote name="Failedmush" fetch="https://github.com/Failedmush" revision="lineage-22.2" />
+
+        <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-common" remote="RobertGarciaa" />
+        <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="RobertGarciaa" />
+        <project path="android_hardware_xiaomi" name="android_hardware_xiaomi" remote="RobertGarciaa" />
+        <project path="vendor/xiaomi/renoir" name="proprietary_vendor_xiaomi_renoir" remote="Failedmush" />
+        <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="RobertGarciaa" /> 
+         <project path="kernel_xiaomi_sm8350" name="android_kernel_xiaomi_sm8350" remote="RobertGarciaa" />
 </manifest>
