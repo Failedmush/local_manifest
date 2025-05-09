@@ -6,7 +6,7 @@
         <project path="android_device_xiaomi_sm8350-common" name="android_device_xiaomi_sm8350-common" remote="RobertGarciaa" />
         <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="RobertGarciaa" />
         <project path="android_hardware_xiaomi" name="hardware_xiaomi" remote="RobertGarciaa" />
-        <project path="vendor/xiaomi/renoir" name="proprietary_vendor_xiaomi_renoir" remote="Failedmush" />
+        <project path="vendor/xiaomi/renoir" name="-android_vendor_xiaomi_renoir" remote="Failedmush" />
         <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="RobertGarciaa" /> 
          <project path="kernel_xiaomi_sm8350" name="android_kernel_xiaomi_sm8350" remote="RobertGarciaa" />
 </manifest>
